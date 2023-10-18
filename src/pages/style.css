@@ -1,0 +1,52 @@
+.smile {
+  height: 30px;
+}
+
+.arrow {
+  margin: 0 0 0 15px;
+}
+
+.minus {
+  margin: 0 10px 0 130px;
+}
+.add {
+  margin: 0 0 0 10px;
+}
+
+.ticket {
+  align-items: left;
+}
+
+.mintTicket {
+  height: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+  .minus {
+    margin: 0 10px 0 60px;
+  }
+  .logo {
+    margin: 0 -100px 0px 00px;
+  }
+
+  .mintTicket {
+    height: 500px;
+  }
+}
+
+.mintHomePage button{
+  background: red;
+  border: 1px solid #bc563c;
+  font-family: "Dahlia-Bold";
+  font-size: 24px;
+  color: #bc563c;
+  border-radius: 100px;
+  width: 350px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
